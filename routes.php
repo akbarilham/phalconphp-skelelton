@@ -3,7 +3,7 @@ use Phalcon\Mvc\Router;
 
 $router = new Router();
 $router->add(
-    '/users/update/:id',
+    '/example/update/:id',
     [
         'namespace' => 'controllers',
         'id' => 1
